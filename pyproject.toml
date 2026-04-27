@@ -5,12 +5,16 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "catboost>=1.2.10",
     "icecream>=2.1.10",
+    "lightgbm>=4.6.0",
+    "marimo>=0.23.3",
     "matplotlib>=3.10.8",
     "numpy>=2.4.3",
     "optuna>=4.8.0",
     "pandas>=3.0.1",
     "scikit-learn>=1.8.0",
+    "scikit-lego>=0.9.8",
     "scipy>=1.17.1",
     "seaborn>=0.13.2",
     "tqdm>=4.67.3",
